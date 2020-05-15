@@ -1,0 +1,121 @@
+body {
+    background-image: url("bg.png");
+    font-family: sans-serif;
+    text-align: center;
+    }
+
+
+
+    .navi {
+        display: inline-block;
+        background: black;
+        padding: 5px 8px 5px 5px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        border-radius: 10px 10px 10px 10px;
+        z-index: 9999;
+    }
+
+    .navi-portfolio {
+        border-right: solid 1px white;
+    }
+    .activePage-About {
+        border-right: solid 1px white;}
+
+    a:link, a:visited {
+        text-decoration: none;
+        color: white;}
+    a:hover {
+        color:#84c4dc;  
+    }
+
+    div a.activePage-About{
+        color:#84c4dc;
+        font-weight: bolder;
+    }
+
+    .navi-activePage-About{
+        border-style: solid 1px white;
+    }
+
+
+
+h1 {
+    position: relative;
+        color: #fdfbf2;
+    font-size: 165px;
+    letter-spacing: -16px;
+    bottom: 520px;
+}
+
+.circle {
+    position: static;
+    display: block;
+    margin: -35px auto;
+    width: 780px;
+}
+
+.about {
+    position: relative;
+        color: #fdfbf2;
+        text-shadow: 0.5px 0.5px 1px rgb(31, 114, 153);
+    font-size: 30px;
+    letter-spacing: -2px;
+    margin: auto;
+    border: 5px;
+    bottom: 665px;
+    left: 41px;
+}
+
+.facebook {
+    position: relative;
+    margin: auto;
+    width: 29px;
+    border: 5px;
+    bottom: 647px;
+    left: -8px;
+    opacity: 0.5}
+.facebook:hover {
+    opacity: +1;
+}
+
+.insta {
+    position: relative;
+    margin: auto;
+    width: 29px;
+    border: 5px;
+    bottom: 648px;
+    left: -4px;
+    opacity: 0.5}
+.insta:hover {
+    opacity: +1;
+}
+
+.post {
+    position: relative;
+    margin: auto;
+    width: 38px;
+    border: 5px;
+    bottom: 648px;
+    left: -2px;
+    opacity: 0.5}
+.post:hover {
+    opacity: +1;
+}
+
+
+.lorem {
+    position: relative;
+        color:#84c4dc;
+        text-shadow: 0.1px 0.1px 0.2px rgb(54, 128, 161);
+    bottom: 515px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+a.hfu {
+    color:#84c4dc;
+}
