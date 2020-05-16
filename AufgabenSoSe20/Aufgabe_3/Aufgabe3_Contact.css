@@ -1,0 +1,213 @@
+body {
+    background-image: url("bg.png");
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.navi {
+    display: inline-block;
+    background: black;
+    padding: 5px 8px 5px 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 9999;
+}
+
+.navi-portfolio {
+    border-right: solid 1px white;
+}
+
+.navi-about {
+    border-right: solid 1px white;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #84c4dc;
+}
+
+div a.activePage-Concat {
+    color: #84c4dc;
+    font-weight: bolder;
+}
+
+.navi-activePage-Concat {
+    border-style: solid 1px white;
+}
+
+h1 {
+    position: relative;
+    color: #fdfbf2;
+    font-size: 165px;
+    letter-spacing: -16px;
+    bottom: 520px;
+}
+
+.circle {
+    position: static;
+    display: block;
+    margin: -35px auto;
+    width: 780px;
+}
+
+.contact {
+    position: relative;
+    color: #fdfbf2;
+    font-size: 30px;
+    letter-spacing: -2px;
+    margin: auto;
+    border: 5px;
+    bottom: 665px;
+    left: 60px;
+    text-shadow: 0.5px 0.5px 1px rgb(31, 114, 153);
+}
+
+.lorem1 {
+    position: relative;
+    color: #fdfbf2;
+    font-size: 13px;
+    margin: auto;
+    border: 5px;
+    bottom: 695px;
+    right: 42px;
+    width: 50%;
+    letter-spacing: 1px;
+    text-align: inherit;
+    text-shadow: 0.5px 0.5px 1px rgb(13, 74, 102);
+}
+
+.lorem2 {
+    position: relative;
+    color: #fdfbf2;
+    font-size: 13px;
+    margin: auto;
+    border: 5px;
+    bottom: 695px;
+    left: 12px;
+    width: 50%;
+    letter-spacing: 1px;
+    text-align: inherit;
+    text-shadow: 0.5px 0.5px 1px rgb(13, 74, 102);
+}
+
+.facebook {
+    position: relative;
+    margin: auto;
+    width: 29px;
+    border: 5px;
+    bottom: 679px;
+    left: -8px;
+    opacity: 0.5;
+}
+
+.facebook:hover {
+    opacity: +1;
+}
+
+.insta {
+    position: relative;
+    margin: auto;
+    width: 29px;
+    border: 5px;
+    bottom: 680px;
+    left: -4px;
+    opacity: 0.5;
+}
+
+.insta:hover {
+    opacity: +1;
+}
+
+.post {
+    position: relative;
+    margin: auto;
+    width: 38px;
+    border: 5px;
+    bottom: 680px;
+    left: -2px;
+    opacity: 0.5;
+}
+
+.post:hover {
+    opacity: +1;
+}
+
+.Kontakt {
+    position: relative;
+    color: #84c4dc;
+    text-shadow: 0.5px 0.5px 1px rgb(31, 114, 153);
+    font-weight: bolder;
+    font-size: 40px;
+    bottom: 600px;
+    right: 270px;
+}
+
+.kn {
+    position: relative;
+    bottom: 600px;
+    right: 25px;
+}
+
+.kn2 {
+    position: relative;
+    bottom: 600px;
+    right: 25px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 480px;
+    box-sizing: border-box;
+    border: none;
+    background-color: lightgray;
+    font-size: 9pt;
+    font-weight: bolder;
+}
+
+input[type="text2"] {
+    width: 300px;
+    padding: 5px 5px 20px 5px;
+    margin-right: 380px;
+    box-sizing: border-box;
+    border: none;
+    background-color: lightgray;
+    font-size: 9pt;
+    font-weight: bolder;
+}
+
+.Datenschutz {
+    position: relative;
+    right: 140px;
+    bottom: 600px;
+    font-size: 9pt;
+    color: rgb(175, 175, 175);
+    margin-left: 175px;
+    text-align: left;
+}
+
+input[type="button"] {
+    position: relative;
+    bottom: 600px;
+    background: lightgray;
+    font-size: 9pt;
+    font-weight: bolder;
+    color: rgb(112, 112, 112);
+    width: 80px;
+    border: none;
+    padding: 5px 7px 5px 7px;
+    text-decoration: none;
+    margin-right: 650px;
+    cursor: pointer;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+}

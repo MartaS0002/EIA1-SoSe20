@@ -1,0 +1,157 @@
+body {
+  background-image: url("bg.png");
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navi {
+  display: inline-block;
+  background: black;
+  padding: 5px 8px 5px 5px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-radius: 10px 10px 10px 10px;
+  z-index: 9999;
+}
+
+.activePage-Portfolio {
+  border-right: solid 1px white;
+}
+.navi-about {
+  border-right: solid 1px white;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #84c4dc;
+}
+
+div a.activePage-Portfolio {
+  color: #84c4dc;
+  font-weight: bolder;
+}
+
+.navi-activePage-Portfolio {
+  border-style: solid 1px white;
+}
+
+h1 {
+  position: relative;
+  color: #fdfbf2;
+  font-size: 165px;
+  letter-spacing: -16px;
+  bottom: 520px;
+}
+
+.circle {
+  position: static;
+  display: block;
+  margin: -35px auto;
+  width: 780px;
+}
+
+.marta {
+  position: relative;
+  color: #fdfbf2;
+  font-size: 30px;
+  letter-spacing: -2px;
+  margin: auto;
+  border: 5px;
+  bottom: 665px;
+  left: 90px;
+  text-shadow: 0.5px 0.5px 1px rgb(31, 114, 153);
+}
+
+.lorem1 {
+  position: relative;
+  color: #fdfbf2;
+  font-size: 13px;
+  margin: auto;
+  border: 5px;
+  bottom: 695px;
+  left: 76px;
+  width: 50%;
+  letter-spacing: 1px;
+  text-align: inherit;
+  text-shadow: 0.5px 0.5px 2px rgb(13, 74, 102);
+}
+.lorem2 {
+  position: relative;
+  color: #fdfbf2;
+  font-size: 13px;
+  margin: auto;
+  border: 5px;
+  bottom: 695px;
+  left: 50px;
+  width: 50%;
+  letter-spacing: 1px;
+  text-align: inherit;
+  text-shadow: 0.5px 0.5px 2px rgb(13, 74, 102);
+}
+
+.facebook {
+  position: relative;
+  margin: auto;
+  width: 29px;
+  border: 5px;
+  bottom: 679px;
+  left: -8px;
+  opacity: 0.5;
+}
+.facebook:hover {
+  opacity: +1;
+}
+
+.insta {
+  position: relative;
+  margin: auto;
+  width: 29px;
+  border: 5px;
+  bottom: 680px;
+  left: -4px;
+  opacity: 0.5;
+}
+.insta:hover {
+  opacity: +1;
+}
+
+.post {
+  position: relative;
+  margin: auto;
+  width: 38px;
+  border: 5px;
+  bottom: 680px;
+  left: -2px;
+  opacity: 0.5;
+}
+.post:hover {
+  opacity: +1;
+}
+
+.fotografie {
+  position: relative;
+  color: #84c4dc;
+  text-shadow: 0.5px 0.5px 1px rgb(31, 114, 153);
+  font-size: 40px;
+  bottom: 600px;
+  right: 270px;
+}
+
+.foto {
+  position: relative;
+  bottom: 610px;
+}
+
+.info {
+  font-size: 10px;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+}
