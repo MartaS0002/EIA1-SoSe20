@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+.choose {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  color: black;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.Links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.penguin {
+  opacity: 50%;
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin: 4px 10px;
+}
+.penguin:hover {
+  opacity: 100%;
+}
+.penguin:active {
+  transform: translateY(5px);
+}
+
+.muschel {
+  opacity: 50%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin: 4px 10px;
+}
+.muschel:hover {
+  opacity: 100%;
+}
+.muschel:active {
+  transform: translateY(5px);
+}
+
+.i_did_not_hit_her {
+  opacity: 50%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin: 2px 5px;
+}
+.i_did_not_hit_her:hover {
+  opacity: 100%;
+}
+.i_did_not_hit_her:active {
+  transform: translateY(5px);
+}
+
+.formular {
+  opacity: 50%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin: 4px 10px;
+}
+
+.formular:hover {
+  opacity: 100%;
+}
+
+.formular:active {
+  transform: translateY(5px);
+}
+
+.vines {
+  opacity: 50%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin: 4px 10px;
+}
+
+.vines:hover {
+  opacity: 100%;
+}
+
+.vines:active {
+  transform: translateY(5px);
+}
