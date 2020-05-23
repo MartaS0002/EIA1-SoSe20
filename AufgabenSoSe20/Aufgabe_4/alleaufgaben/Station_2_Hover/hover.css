@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(bg.png);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container * {
+  position: fixed;
+  align-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.muschel1 {
+  position: absolute;
+  left: 630px;
+  top: 340px;
+  margin: auto;
+}
+
+.muschel1:hover {
+  opacity: 50%;
+}
+
+.muschel_perle1 {
+  position: absolute;
+  left: 630px;
+  top: 340px;
+  margin: auto;
+  opacity: 0%;
+}
+
+.muschel_perle1:hover {
+  opacity: 1;
+}
+
+.muschel3 {
+  position: absolute;
+  left: 500px;
+  top: 280px;
+  margin: auto;
+}
+.muschel3:hover {
+  opacity: 50%;
+}
+
+.muschel2 {
+  position: absolute;
+  top: 380px;
+  left: 370px;
+  margin: auto;
+}
+.muschel2:hover {
+  opacity: 50%;
+}
+
+h1 {
+  color: white;
+  font-size: 27px;
+  left: 100px;
+  top: 50px;
+}

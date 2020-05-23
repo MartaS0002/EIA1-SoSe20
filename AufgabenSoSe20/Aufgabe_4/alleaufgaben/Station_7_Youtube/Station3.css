@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(bg.png);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: fixed;
+  align-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.youtube {
+  position: absolute;
+  bottom: 50px;
+  left: 25px;
+}
+
+.band {
+  position: absolute;
+  left: 380px;
+  top: 285px;
+  z-index: 9999;
+}
