@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(bg.png);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container * {
+  position: fixed;
+  align-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.chill {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  left: 80px;
+  top: 65px;
+}
+
+.vine-down-right {
+  float: left;
+  width: 130px;
+  margin-top: 230px;
+  margin-left: 370px;
+  text-align: center;
+}
+
+.vine-middle {
+  float: left;
+  width: 150px;
+  margin-top: 260px;
+  margin-left: 530px;
+  text-align: center;
+}
+
+.vine-right {
+  float: left;
+  width: 100px;
+  margin-top: 260px;
+  margin-left: 720px;
+  text-align: center;
+}
+
+.vine-down-left {
+  float: left;
+  width: 240px;
+  margin-top: 350px;
+  margin-left: 340px;
+  text-align: center;
+}
+
+.vine-left {
+  float: left;
+  width: 240px;
+  margin-top: 380px;
+  margin-left: 600px;
+  text-align: center;
+}
