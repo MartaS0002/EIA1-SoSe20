@@ -23,7 +23,7 @@ body {
 
 .band {
   position: absolute;
-  left: 380px;
-  top: 285px;
+  left: 370px;
+  top: 275px;
   z-index: 9999;
 }
