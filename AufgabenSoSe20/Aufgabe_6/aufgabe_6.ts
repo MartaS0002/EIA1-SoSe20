@@ -32,7 +32,7 @@ window.addEventListener("load", function(): void {
         var northamericaRelativ: number = Math.round(northamerica2018 * 100 / weltgesamt);
         var northamericaGrowthRate: number = 1 - northamerica2018 / northamerica2008;
         var northamericaGrowthRate1: number = Math.round(100 * northamericaGrowthRate); 
-        var northamericaGrowthRate2: number = Math.round(northamerica2018 - northamerica2008);
+        var northamericaGrowthRate2: number = Math.round(northamerica2008 - northamerica2018);
         document.querySelector(".button_northamerica").addEventListener("click", function northamerica(): void {
             document.querySelector(".h1").innerHTML = "in North America";
             document.querySelector(".emission2018zahl").innerHTML = northamerica2018 + " kg";
@@ -52,7 +52,7 @@ window.addEventListener("load", function(): void {
         var southamericaRelativ: number = Math.round(southamerica2018 * 100 / weltgesamt);
         var southamericaGrowthRate: number = 1 - southamerica2018 / southamerica2008;
         var southamericaGrowthRate1: number = Math.round(100 * southamericaGrowthRate); 
-        var southamericaGrowthRate2: number = Math.round(southamerica2018 - southamerica2008);
+        var southamericaGrowthRate2: number = Math.round(southamerica2008 - southamerica2018);
         document.querySelector(".button_southamerica").addEventListener("click", function southamerica(): void {
             document.querySelector(".h1").innerHTML = "in South America";
             document.querySelector(".emission2018zahl").innerHTML = southamerica2018 + " kg";
@@ -72,7 +72,7 @@ window.addEventListener("load", function(): void {
         var africaRelativ: number = Math.round(africa2018 * 100 / weltgesamt);
         var africaGrowthRate: number = 1 - africa2018 / africa2008;
         var africaGrowthRate1: number = Math.round(100 * africaGrowthRate); 
-        var africaGrowthRate2: number = Math.round(africa2018 - africa2008);
+        var africaGrowthRate2: number = Math.round(africa2008 - africa2018);
         document.querySelector(".button_africa").addEventListener("click", function africa (): void {
             document.querySelector(".h1").innerHTML = "in Africa";
             document.querySelector(".emission2018zahl").innerHTML = africa2018 + " kg";
@@ -92,7 +92,7 @@ window.addEventListener("load", function(): void {
         var asiaRelativ: number = Math.round(asia2018 * 100 / weltgesamt);
         var asiaGrowthRate: number = 1 - asia2018 / asia2008;
         var asiaGrowthRate1: number = Math.round(100 * asiaGrowthRate); 
-        var asiaGrowthRate2: number = Math.round(asia2018 - asia2008);
+        var asiaGrowthRate2: number = Math.round(asia2008 - asia2018);
         document.querySelector(".button_asia").addEventListener("click", function asia(): void {
             document.querySelector(".h1").innerHTML = "in Asia";
             document.querySelector(".emission2018zahl").innerHTML = asia2018 + " kg";
@@ -111,7 +111,7 @@ window.addEventListener("load", function(): void {
         var australiaRelativ: number = Math.round(australia2018 * 100 / weltgesamt);
         var australiaGrowthRate: number = 1 - australia2018 / australia2008;
         var australiaGrowthRate1: number = Math.round(100 * australiaGrowthRate); 
-        var australiaGrowthRate2: number = Math.round(australia2018 - australia2008); 
+        var australiaGrowthRate2: number = Math.round(australia2008 - australia2018); 
         document.querySelector(".button_australia").addEventListener("click", function australia (): void {
             document.querySelector(".h1").innerHTML = "in Australia";
             document.querySelector(".emission2018zahl").innerHTML = australia2018 + " kg";
