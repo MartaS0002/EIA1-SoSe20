@@ -34,9 +34,9 @@ window.addEventListener("load", function(): void {
         var northamericaGrowthRate1: number = Math.round(100 * northamericaGrowthRate); 
         var northamericaGrowthRate2: number = Math.round(northamerica2018 - northamerica2008);
         document.querySelector(".button_northamerica").addEventListener("click", function northamerica(): void {
-            document.querySelector(".h1").innerHTML = "in Northamerica";
+            document.querySelector(".h1").innerHTML = "in North America";
             document.querySelector(".emission2018zahl").innerHTML = northamerica2018 + " kg";
-            document.querySelector(".emission2018text").innerHTML = "Emission absolute of Northamerica in 2018";
+            document.querySelector(".emission2018text").innerHTML = "Emission absolute of North America in 2018";
             document.querySelector(".relativW").innerHTML = northamericaRelativ + "%";
             document.querySelector(".GrowthRate1proz").innerHTML = northamericaGrowthRate1 + "%";
             document.querySelector(".GrowthRate2kg").innerHTML = northamericaGrowthRate2 + " kg";
@@ -46,7 +46,7 @@ window.addEventListener("load", function(): void {
     northamerica();
 
     //Emmissions Southamerica
-    function southamerica(): void {
+    function south America(): void {
         var southamerica2018: number = 1261.5;
         var southamerica2008: number = 1132.6; 
         var southamericaRelativ: number = Math.round(southamerica2018 * 100 / weltgesamt);
@@ -54,9 +54,9 @@ window.addEventListener("load", function(): void {
         var southamericaGrowthRate1: number = Math.round(100 * southamericaGrowthRate); 
         var southamericaGrowthRate2: number = Math.round(southamerica2018 - southamerica2008);
         document.querySelector(".button_southamerica").addEventListener("click", function southamerica(): void {
-            document.querySelector(".h1").innerHTML = "in Southamerica";
+            document.querySelector(".h1").innerHTML = "in South America";
             document.querySelector(".emission2018zahl").innerHTML = southamerica2018 + " kg";
-            document.querySelector(".emission2018text").innerHTML = "Emission absolute of Southamerica in 2018";
+            document.querySelector(".emission2018text").innerHTML = "Emission absolute of South America in 2018";
             document.querySelector(".relativW").innerHTML = southamericaRelativ + "%";
             document.querySelector(".GrowthRate1proz").innerHTML = southamericaGrowthRate1 + "%";
             document.querySelector(".GrowthRate2kg").innerHTML = southamericaGrowthRate2 + " kg";
