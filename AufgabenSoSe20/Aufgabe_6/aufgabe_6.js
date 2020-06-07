@@ -75,7 +75,7 @@ window.addEventListener("load", function () {
             document.querySelector(".emission2018text").innerHTML = "Emission absolute of Africa in 2018";
             document.querySelector(".relativW").innerHTML = africaRelativ + "%";
             document.querySelector(".GrowthRate1proz").innerHTML = africaGrowthRate1 + "%";
-            document.querySelector(".GrowthRate2kg").innerHTML = "-" + africaGrowthRate2 + " kg";
+            document.querySelector(".GrowthRate2kg").innerHTML = africaGrowthRate2 + " kg";
             document.querySelector(".chartWrapper .chart").setAttribute("style", "height: 4%");
         });
     }
