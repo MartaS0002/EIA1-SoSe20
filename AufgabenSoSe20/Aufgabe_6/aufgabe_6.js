@@ -30,7 +30,7 @@ window.addEventListener("load", function () {
         var northamericaRelativ = Math.round(northamerica2018 * 100 / weltgesamt);
         var northamericaGrowthRate = 1 - northamerica2018 / northamerica2008;
         var northamericaGrowthRate1 = Math.round(100 * northamericaGrowthRate);
-        var northamericaGrowthRate2 = Math.round(northamerica2018 - northamerica2008);
+        var northamericaGrowthRate2 = Math.round(northamerica2008 - northamerica2018);
         document.querySelector(".button_northamerica").addEventListener("click", function northamerica() {
             document.querySelector(".h1").innerHTML = "in Northamerica";
             document.querySelector(".emission2018zahl").innerHTML = northamerica2018 + " kg";
@@ -49,7 +49,7 @@ window.addEventListener("load", function () {
         var southamericaRelativ = Math.round(southamerica2018 * 100 / weltgesamt);
         var southamericaGrowthRate = 1 - southamerica2018 / southamerica2008;
         var southamericaGrowthRate1 = Math.round(100 * southamericaGrowthRate);
-        var southamericaGrowthRate2 = Math.round(southamerica2018 - southamerica2008);
+        var southamericaGrowthRate2 = Math.round(southamerica2008 - southamerica2018);
         document.querySelector(".button_southamerica").addEventListener("click", function southamerica() {
             document.querySelector(".h1").innerHTML = "in Southamerica";
             document.querySelector(".emission2018zahl").innerHTML = southamerica2018 + " kg";
@@ -68,7 +68,7 @@ window.addEventListener("load", function () {
         var africaRelativ = Math.round(africa2018 * 100 / weltgesamt);
         var africaGrowthRate = 1 - africa2018 / africa2008;
         var africaGrowthRate1 = Math.round(100 * africaGrowthRate);
-        var africaGrowthRate2 = Math.round(africa2018 - africa2008);
+        var africaGrowthRate2 = Math.round(africa2008 - africa2018);
         document.querySelector(".button_africa").addEventListener("click", function africa() {
             document.querySelector(".h1").innerHTML = "in Africa";
             document.querySelector(".emission2018zahl").innerHTML = africa2018 + " kg";
@@ -87,7 +87,7 @@ window.addEventListener("load", function () {
         var asiaRelativ = Math.round(asia2018 * 100 / weltgesamt);
         var asiaGrowthRate = 1 - asia2018 / asia2008;
         var asiaGrowthRate1 = Math.round(100 * asiaGrowthRate);
-        var asiaGrowthRate2 = Math.round(asia2018 - asia2008);
+        var asiaGrowthRate2 = Math.round(asia2008 - asia2018);
         document.querySelector(".button_asia").addEventListener("click", function asia() {
             document.querySelector(".h1").innerHTML = "in Asia";
             document.querySelector(".emission2018zahl").innerHTML = asia2018 + " kg";
@@ -106,7 +106,7 @@ window.addEventListener("load", function () {
         var australiaRelativ = Math.round(australia2018 * 100 / weltgesamt);
         var australiaGrowthRate = 1 - australia2018 / australia2008;
         var australiaGrowthRate1 = Math.round(100 * australiaGrowthRate);
-        var australiaGrowthRate2 = Math.round(australia2018 - australia2008);
+        var australiaGrowthRate2 = Math.round(australia2008 - australia2018);
         document.querySelector(".button_australia").addEventListener("click", function australia() {
             document.querySelector(".h1").innerHTML = "in Australia";
             document.querySelector(".emission2018zahl").innerHTML = australia2018 + " kg";
