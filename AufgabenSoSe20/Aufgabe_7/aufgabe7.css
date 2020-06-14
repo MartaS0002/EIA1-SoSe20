@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+button {
+  padding: 150px 150px;
+  cursor: pointer;
+  border-radius: 10%;
+  outline: none;
+}
+
+.blue {
+  background-color: #1874cd;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
+    inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+}
+.blue:hover {
+  background-color: #00f5ff;
+}
+
+.pink {
+  background-color: #ff1493;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 100px #561370,
+    inset -20px 0 100px #f0f, 0 0 50px #fff, -10px 0 80px #f0f,
+    10px 0 100px #38f8ff;
+}
+.pink:hover {
+  background-color: #fd9ffd;
+}
+
+.orange {
+  background-color: #ffa500;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 100px #a5630c,
+    inset -20px 0 100px #c96b00, 0 0 50px #fff, -10px 0 80px #f0f,
+    10px 0 100px #38f8ff;
+}
+.orange:hover {
+  background-color: #ffe770;
+}
+#playbutton {
+  cursor: pointer;
+}
+#playbutton:hover {
+  opacity: 50%;
+}
